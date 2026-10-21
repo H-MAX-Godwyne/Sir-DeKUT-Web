@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Sir DeKUT — Campus vibes, stories, events and opportunities.">
+  <title>Sir DeKUT | Campus Vibes & Stories</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="images/logo.jpeg" alt="Sir DeKUT official logo">
+      <span>
+        SIR DeKUT
+        <small>CAMPUS . VIBES • STORIES</small>
+      </span>
+    </a>
+ 
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#news">Campus News</a>
+      <a href="#events">Events</a>
+      <a href="#opportunities">Opportunities</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="eyebrow">WELCOME TO SIR DeKUT</span>
+
+        <h1>Your Campus.<br>Your Vibes.<br><span>Your Stories.</span></h1>
+
+        <p>
+          Your connection to campus news, student experiences,
+          events, entertainment and opportunities at DeKUT.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#news" class="btn btn-gold">Explore Stories ↗</a>
+          <a href="#about" class="btn btn-outline">Discover Us</a>
+          <a href="https://portal.dkut.ac.ke/" class="btn btn-outline">Student Portal</a>
+        </div>
+
+        <div class="hero-tag">
+          <span></span> THE CAMPUS PULSE
+        </div>
+      </div>
+
+      <div class="hero-logo">
+        <img src="images/logo.jpeg" alt="Sir DeKUT Campus Media logo">
+        <p>Campus vibes. Real stories. One community.</p>
+      </div>
+    </section>
+
+    <!-- NEWS TICKER -->
+    <div class="ticker">
+      <strong>THE CAMPUS PULSE</strong>
+      <div> CAMPUS NEWS &nbsp; • &nbsp; EVENTS &nbsp; • &nbsp;
+        STUDENT LIFE &nbsp; • &nbsp; OPPORTUNITIES &nbsp; • &nbsp;
+        CAMPUS VIBES
+      </div>
+    </div>
+
+    <!-- CAMPUS NEWS -->
+    <section class="section" id="news">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">STAY INFORMED</span>
+          <h2>Latest Stories<span class="gold">.</span></h2>
+          <p>What's happening around our campus community?</p>
+        </div>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="news">News</button>
+        <button class="filter-btn" data-filter="life">Student Life</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+      </div>
+
+      <div class="news-grid">
+        <article class="news-card" data-category="news">
+          <img src="images/dekut 2.png"
+            alt="dkut appearance" loading="lazy">
+          <div class="news-content">
+            <span class="category">CAMPUS NEWS</span>
+            <h3>Campus Updates</h3>
+            <p>Keep up with important announcements and developments around campus.</p>
+            <a href="#contact" class="read-more">Share or suggest a story ↗</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="life">
+          <img src="images/dekut 3.png"
+            alt="DeKUT appearance" loading="lazy">
+          <div class="news-content">
+            <span class="category">STUDENT LIFE</span>
+            <h3>Life Beyond Class</h3>
+            <p>Discover student culture, friendships, talents and everyday campus life.</p>
+            <a href="#contact" class="read-more">Share your experience ↗</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="events" id="events">
+          <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=800&q=80"
+            alt="A live music event" loading="lazy">
+          <div class="news-content">
+            <span class="category">EVENTS & ENTERTAINMENT</span>
+            <h3>Campus Events</h3>
+            <p>Find out about activities, entertainment, gatherings and special moments.</p>
+            <a href="#contact" class="read-more">Submit an event ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="notice">
+        These are sample stories and photos. Replace them with verified campus content.
+      </p>
+    </section>
+
+    <!-- OPPORTUNITIES -->
+    <section class="opportunities" id="opportunities">
+      <div>
+        <span class="eyebrow">YOUR NEXT BIG STEP</span>
+        <h2>Discover opportunities.<br>Build your future.</h2>
+        <p>
+          Explore scholarships, internships, competitions, training
+          and other opportunities for students.
+        </p>
+        <a href="#contact" class="btn btn-gold">Submit an Opportunity ↗</a>
+      </div>
+
+      <div class="opportunity-list">
+        <div><span>01</span><strong>Scholarships & Funding</strong><b>↗</b></div>
+        <div><span>02</span><strong>Internships & Careers</strong><b>↗</b></div>
+        <div><span>03</span><strong>Digital Skills & Training</strong><b>↗</b></div>
+        <div><span>04</span><strong>Competitions & Events</strong><b>↗</b></div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">CAPTURE THE MOMENT</span>
+          <h2>Campus Gallery<span class="gold">.</span></h2>
+          <p>Moments, memories and people that make campus special.</p>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="images/dekut 4.png"
+          alt="dkut logo" loading="lazy">
+        <img src="images/dkut photo.jpeg"
+          alt="dkut photo" loading="lazy">
+        <img src="images/dekut 1.png"
+          alt="Students gathering" loading="lazy">
+        <img src="images/dkut img.jpeg"
+          alt="around admin" loading="lazy">
+      </div>
+      <p class="notice">Use your own campus photographs when available.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <img src="images/logo.jpeg" alt="Sir DeKUT logo" class="about-logo">
+
+      <div>
+        <span class="eyebrow">WHO WE ARE</span>
+        <h2>Giving campus a voice.</h2>
+        <p>
+          Sir DeKUT is an independent campus media brand concept
+          focused on sharing student stories, campus updates,
+          events and opportunities. We aim to connect the community
+          and celebrate student experiences.
+        </p>
+        <a href="#contact" class="read-more">Be part of the story ↗</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <span class="eyebrow">LET'S CONNECT</span>
+      <h2>Have something to share?</h2>
+      <p>Send us a campus story, event announcement, photo or opportunity.</p>
+
+      <a class="btn btn-gold"
+        href="mailto:sirdekut@outlook.com? subject=Sir%20DeKUT%20Submission">
+        Contact Sir DeKUT ↗
+      </a>
+
+      <p class="notice">sirdekut@outlook.com</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="footer-brand">
+      <img src="images/logo.jpeg" alt="">
+      <span>SIR DeKUT<small>CAMPUS VIBES • STORIES</small></span>
+    </a>
+
+    <p>Campus vibes. Real stories. One community.</p>
+    <p>© <span id="year"></span> Sir DeKUT. All rights reserved.</p>
+    <p id="bus">Created with Love and Managed by Sir DeKUT(Goddy)</p>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+   
